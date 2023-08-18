@@ -116,3 +116,7 @@ LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 CRISPY_ALLOWEDTEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+# Django's console backend setting
+# : Outputs the email text to our command line console instead.
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
